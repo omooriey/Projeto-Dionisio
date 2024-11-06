@@ -1,0 +1,126 @@
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+:root {
+--color_01: #C21010;
+--color_02: #E64848;
+--color_03: #FFFDE3;
+--color_04: #CFE8A9;
+--color_05: #fff;
+--color_06: #000;
+
+
+}
+
+.bg-cor {
+    background-color: var(--color_02);
+}
+
+.nav-link, .active {
+    color: var(--color_05);
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+h1 {
+   text-align: center;
+   background-color: var(--color_01);
+   color: var(--color_04);
+}
+
+h5 {
+    color: var(--color_02);
+    font-size: 60px;
+    text-shadow: 10px 10px 10px var(--color_05);
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+
+}
+
+p {
+    text-align: center;
+    color: var(--color_03);
+}
+
+body {
+    background-color: var(--color_02);
+}
+.img {
+    height: 100%;
+    object-fit: cover; 
+}
+
+.caroulsel {
+    height: 33.7rem;
+}
+
+.custom-color {
+    background-color: var(--color_04); 
+    
+  }
+
+.progress   {
+    padding: 0;
+    
+}
+
+.progress-bar {
+    margin: 0;
+}
+
+.footer {
+    background-color: var(--color_01);
+    text-align: left;
+}
+
+
+.logo {
+    width: 70px;
+    border-radius: 35px;
+}
+
+.social {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-top: 30px;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+
+
+.secao {
+    height: 150px;
+}
+
+.parceiros {
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-parceiro {
+    background-image: url(../img/Parceiros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 85vh;
+}
+    
